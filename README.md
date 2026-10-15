@@ -30,7 +30,7 @@ The controller provides an APB register interface for configuring the SPI periph
 | `SPI_TOP.v` | Top-level integration of all functional blocks |
 
 The design is parameterized through `WIDTH`; the reported synthesis configuration uses **WIDTH = 8**.
-
+  
 ---
 
 ## ✨ Key Features
@@ -597,7 +597,7 @@ This project demonstrates:
 - RTL linting
 - Logic synthesis
 - Timing analysis
-- Area analysis
+- Area analysis   
 - Power-report interpretation
 
 > **Source-of-truth note:** The Verilog RTL is authoritative for the exact behavior of the current implementation. Documentation describes the implemented design and does not replace the RTL.
